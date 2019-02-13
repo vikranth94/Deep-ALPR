@@ -8,6 +8,7 @@ https://github.com/Dharun/Tensorflow-License-Plate-Detection
 https://github.com/bgshih/crnn
 https://github.com/matthewearl/deep-anpr
 https://github.com/stevefielding/tensorflow-anpr
+https://github.com/fitrialif/Licence-Plate-Recognition-Keras
 
 Blogs:
 https://www.dlology.com/blog/how-to-train-a-keras-model-to-recognize-variable-length-text/

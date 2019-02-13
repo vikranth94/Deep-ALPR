@@ -2,7 +2,7 @@ import os
 import argparse
 from PIL import Image
 
-DEFAULT_SIZE = (224, 224)
+DEFAULT_SIZE = (160, 100)
 
 
 def resize_image(input_dir, infile, output_dir="resized", size=DEFAULT_SIZE):

@@ -23,3 +23,13 @@ https://www.reddit.com/r/MachineLearning/comments/4i4j66/how_i_wrote_an_automati
 Stackoverflow:
 https://stackoverflow.com/questions/50793865/pre-trained-lenet-model-for-license-plate-recognition
 https://stackoverflow.com/questions/50713023/license-plate-character-segmentation-python-opencv
+
+
+Detection:
+https://towardsdatascience.com/faster-r-cnn-object-detection-implemented-by-keras-for-custom-data-from-googles-open-images-125f62b9141a
+https://github.com/RockyXu66/Faster_RCNN_for_Open_Images_Dataset_Keras
+https://github.com/experiencor/keras-yolo3
+https://github.com/fizyr/keras-retinanet
+https://github.com/pierluigiferrari/ssd_keras
+https://github.com/kbardool/keras-frcnn
+https://www.analyticsvidhya.com/blog/2018/11/implementation-faster-r-cnn-python-object-detection/

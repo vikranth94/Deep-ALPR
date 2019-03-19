@@ -34,12 +34,12 @@ if __name__ == "__main__":
     if args.input_dir:
         input_dir = args.input_dir
     else:
-        input_dir = dir + '\\Data\\dataset_2'
+        input_dir = dir + '\\Data\\dataset_1\\Cropped'
 
     if args.output_dir:
         output_dir = args.output_dir
     else:
-        output_dir = dir + '\\Data\\resized'
+        output_dir = dir + '\\Data\\dataset_1\\Resized'
 
     if args.width and args.height:
         size = (int(args.width), int(args.height))

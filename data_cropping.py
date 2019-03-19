@@ -10,10 +10,11 @@ def crop_image(image_np, value):
     crop_img = image_np[xmin:xmax, ymin:ymax]
     return crop_img
 
-POSE = 'RP'
-IMAGES_PATH = 'Data\\dataset_1\\Subset_{}\\{}\\train\\jpeg'.format(POSE,POSE)
-XML_PATH = 'Data\\dataset_1\\Subset_{}\\{}\\train\\xml'.format(POSE,POSE)
-OUT_PATH = 'Data\\dataset_1\\Cropped'
+POSE = 'LE'
+folder = 'test'
+IMAGES_PATH = 'Data\\dataset_1\\Subset_{}\\{}\\{}\\jpeg'.format(POSE,POSE,folder)
+XML_PATH = 'Data\\dataset_1\\Subset_{}\\{}\\{}\\xml'.format(POSE,POSE,folder)
+OUT_PATH = 'Data\\dataset_1\\Cropped_test'
 
 names = [ d for d in os.listdir(IMAGES_PATH) if d.endswith( '.jpg') ]
 names = natsorted(names)
